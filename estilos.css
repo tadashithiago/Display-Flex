@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div, main{
+    border: solid black 1px;
+}
+
+
+main{
+    width: 900px;
+    height: 700px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#caixa-1{
+ height: 100%;
+ width: 30%;   
+}
+
+#caixa-2{
+    height: 100%;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0;
+}
+
+#sub1{
+    height: 20%;
+    width: 100%;
+
+}
+
+#sub2{
+    height: 56%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border:0;
+
+}
+
+#sub3{
+    height: 20%;
+    width: 100%;
+}
+
+#c1, #c2{
+    height: 100%;
+
+    
+
+}
+
+#c1{
+    display: flex;
+    width: 67%;
+    justify-content: center;
+    align-items: center;
+}
+
+#c2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#c3{
+    width: 90%;
+    height: 70%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0;
+
+}
+
+.c4{
+    height: 30%;
+    width: 100%;
+}
+
+#aula{
+    height: 90%;
+    width: 90%;
+    border: solid purple 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+}
+
+#c-aulap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#c-aula{
+    width: 46%;
+    height: 94%;
+    margin-left:0.5rem;
+}
+
+#c-aula1{
+    width: 46%;
+    height: 94%;
+    margin-right:0.5rem;
+}
+
+ul, li, p{
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.contato{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2.5rem;
+}
